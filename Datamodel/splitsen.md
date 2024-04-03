@@ -1,4 +1,4 @@
-### Splitsfunctie
+### Splitsfunctie in hoofdquery:
 ```sql
   , stp_adf_rapport.set_splitsen(
             p_referentie_id              => <tabel.veld_id> -- ID veld waarop gesplitst/afgeleverd wordt
