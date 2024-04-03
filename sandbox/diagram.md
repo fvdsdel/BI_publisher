@@ -2,8 +2,11 @@
 classDiagram
     HOOFDQUERY: sleutelvelden
     HOOFDQUERY: splitsen()
+    HOOFDQUERY --|> SUBQUERY1
   
-
+class SUBQUERY1{
+      sleutelvelden
+    }
 
 ```
 HOOFDQUERY-->|sleutelvelden|SUBQUERY1;
