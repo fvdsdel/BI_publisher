@@ -1,5 +1,5 @@
 # BI_publisher
 tips&amp;tricks
 
-
-[Datamodel](Datamodel/home.md)
+- [RTF rapporten](RTF/home.md)
+- [Datamodel](Datamodel/home.md)
