@@ -1,7 +1,6 @@
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    HOOFDQUERY-->SUBQUERY1;
+    HOOFDQUERY-->SUBQUERY2;
+    SUBQUERY1-->SUBQUERY1_2;
 ```
