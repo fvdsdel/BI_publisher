@@ -21,6 +21,10 @@
 ```
 
 ### Splitsquery in DM -> splitsen
+
+![image](https://github.com/fvdsdel/BI_publisher/assets/165891554/f4d71a1a-18ad-494e-b6a8-4370cf81aff6)
+
+
 ```sql
 SELECT DISTINCT aras.referentie_id key
      ,  araa.rapport_template template
