@@ -1,6 +1,6 @@
 ```mermaid
 graph TD;
-    HOOFDQUERY-->SUBQUERY1;
-    HOOFDQUERY-->SUBQUERY2;
-    SUBQUERY1-->SUBQUERY1_2;
+    HOOFDQUERY-->|sleutelvelden|SUBQUERY1;
+    HOOFDQUERY-->|sleutelvelden|SUBQUERY2;
+    SUBQUERY1-->|sleutelvelden|SUBQUERY1_2;
 ```
