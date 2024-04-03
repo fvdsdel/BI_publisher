@@ -19,3 +19,17 @@
             ,  p_aanvraagnummer           => araa.aanvraagnummer
     )   AS araa_splitsen
 ```
+
+### Splitsquery in DM -> splitsen
+```sql
+SELECT DISTINCT aras.referentie_id key
+     ,  araa.rapport_template template
+     ,  araa.taal locale
+     ,  araa.uitvoerformaat output_format
+     ,  'FILE' del_channel
+     ,  oss_adf_config.waarde(null, 'ORACLE-BIP', 'BURSTING-DIRECTORY') parameter1
+     ,  aras.bestandsnaam parameter2
+FROM stt_adf_rapport_aanvraag araa,
+LEFT JOIN stt_adf_rapport_a_splitsen aras ON (araa.aanvraagnummer = aras.aanvraagnummer)
+WHERE araa.aanvraagnummer = :p_aanvraagnummer
+```
