@@ -1,7 +1,7 @@
 ```mermaid
 classDiagram
     
-    HOOFDQUERY: +splitsen();
+    HOOFDQUERY: +splitsen()
   
 
 
