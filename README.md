@@ -2,4 +2,4 @@
 tips&amp;tricks
 
 
-[a relative link]Datamodel/home.md
+[Datamodel/home.md]Datamodel
