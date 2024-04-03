@@ -1,5 +1,5 @@
 ### Splitsfunctie
-'''sql
+```sql
   , stp_adf_rapport.set_splitsen(p_referentie_id              => <tabel.veld_id> -- ID veld waarop gesplitst/afgeleverd wordt
                                 ,  p_referentietabel            => <referentietabel> 
                                 ,  p_bestandsnaam               => oss_adf_utility.bestandsnaam(
@@ -16,4 +16,4 @@
                                                                     ,  p_extensie                   => araa.uitvoerformaat
                                                                     )
                                 ,  p_aanvraagnummer             => araa.aanvraagnummer)                           araa_splitsen
-'''
+```
