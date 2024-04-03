@@ -4,10 +4,11 @@ classDiagram
     HOOFDQUERY: splitsen()
     HOOFDQUERY --|> SUBQUERY1
     HOOFDQUERY --|> SUBQUERY2
+SUBQUERY1 --|> SUBQUERY1_2
   
 class SUBQUERY1{
       sleutelvelden
-      SUBQUERY1 --|> SUBQUERY1_2
+      
     }
 
 class SUBQUERY2{
