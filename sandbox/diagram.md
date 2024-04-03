@@ -1,6 +1,6 @@
 ```mermaid
 classDiagram
-    
+    HOOFDQUERY: +sleutelvelden
     HOOFDQUERY: +splitsen()
   
 
